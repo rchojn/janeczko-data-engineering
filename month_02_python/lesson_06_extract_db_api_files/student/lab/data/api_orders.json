@@ -1,0 +1,7 @@
+[
+  {"order_id": "2001", "status": "completed", "total_amount": "310.00", "source": "api"},
+  {"order_id": "2002", "status": "pending", "total_amount": "50.00", "source": "api"},
+  {"order_id": "2003", "status": " refunded ", "total_amount": "25.00", "source": "api"},
+  {"status": "completed", "total_amount": "10.00", "source": "api"},
+  {"order_id": "2005", "status": "completed", "total_amount": "not-a-number", "source": "api"}
+]

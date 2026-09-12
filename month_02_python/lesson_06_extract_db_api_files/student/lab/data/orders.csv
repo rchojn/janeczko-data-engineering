@@ -1,0 +1,7 @@
+order_id,status,total_amount,source
+1001,completed,120.50,csv
+1002,cancelled,80.00,csv
+1003,Completed,240.00,csv
+,completed,99.00,csv
+1005,unknown,55.00,csv
+1006,completed,-12.00,csv

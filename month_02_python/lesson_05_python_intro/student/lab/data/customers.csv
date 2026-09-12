@@ -1,0 +1,6 @@
+customer_id,customer_name,country,segment
+C01,Ada Nowak,PL,consumer
+C02,Jan Kowalski,PL,business
+C03,Marta Silva,PT,business
+C04,Tom Brown,UK,consumer
+C05,Ewa Zielinska,PL,consumer

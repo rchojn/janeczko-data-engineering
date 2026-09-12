@@ -1,0 +1,93 @@
+{
+  "accepted_count": 6,
+  "accepted_orders": [
+    {
+      "order_id": "1001",
+      "source": "csv",
+      "status": "completed",
+      "total_amount": 120.5
+    },
+    {
+      "order_id": "1002",
+      "source": "csv",
+      "status": "cancelled",
+      "total_amount": 80.0
+    },
+    {
+      "order_id": "1003",
+      "source": "csv",
+      "status": "completed",
+      "total_amount": 240.0
+    },
+    {
+      "order_id": "2001",
+      "source": "api",
+      "status": "completed",
+      "total_amount": 310.0
+    },
+    {
+      "order_id": "2002",
+      "source": "api",
+      "status": "pending",
+      "total_amount": 50.0
+    },
+    {
+      "order_id": "2003",
+      "source": "api",
+      "status": "refunded",
+      "total_amount": 25.0
+    }
+  ],
+  "completed_revenue": 670.5,
+  "rejected_count": 5,
+  "rejected_records": [
+    {
+      "reason": "missing required field",
+      "record": {
+        "order_id": "",
+        "source": "csv",
+        "status": "completed",
+        "total_amount": "99.00"
+      }
+    },
+    {
+      "reason": "missing required field",
+      "record": {
+        "source": "api",
+        "status": "completed",
+        "total_amount": "10.00"
+      }
+    },
+    {
+      "reason": "status: Value error, status must be one of: cancelled, completed, pending, refunded",
+      "record": {
+        "order_id": "1005",
+        "source": "csv",
+        "status": "unknown",
+        "total_amount": "55.00"
+      }
+    },
+    {
+      "reason": "total_amount: Input should be greater than or equal to 0",
+      "record": {
+        "order_id": "1006",
+        "source": "csv",
+        "status": "completed",
+        "total_amount": "-12.00"
+      }
+    },
+    {
+      "reason": "total_amount: Input should be a valid number, unable to parse string as a number",
+      "record": {
+        "order_id": "2005",
+        "source": "api",
+        "status": "completed",
+        "total_amount": "not-a-number"
+      }
+    }
+  ],
+  "revenue_by_source": {
+    "api": 310.0,
+    "csv": 360.5
+  }
+}

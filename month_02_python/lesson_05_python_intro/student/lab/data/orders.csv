@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,status,total_amount,channel
+1001,C01,2026-07-01,completed,120.00,web
+1002,C02,2026-07-01,completed,350.00,mobile
+1003,C01,2026-07-02,cancelled,80.00,web
+1004,C03,2026-07-03,completed,900.00,partner
+1005,C04,2026-07-03,refunded,200.00,mobile
+1006,C02,2026-07-04,completed,150.00,web
+1007,C05,2026-07-05,completed,420.00,mobile
+1008,C03,2026-07-05,pending,50.00,partner
+1009,C01,2026-07-06,completed,610.00,web
+1010,C99,2026-07-06,completed,75.00,web
