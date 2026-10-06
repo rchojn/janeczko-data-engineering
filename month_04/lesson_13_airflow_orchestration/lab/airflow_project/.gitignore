@@ -1,0 +1,11 @@
+logs/
+plugins/
+config/
+.env
+.pytest_cache/
+standalone_admin_password.txt
+airflow.cfg
+*.db
+*.sqlite
+__pycache__/
+*.pyc
